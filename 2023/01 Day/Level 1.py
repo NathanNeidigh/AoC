@@ -1,12 +1,8 @@
-# TODO Identify Puzzle goal
-# TODO Identify what was given and what is expected as output
-# TODO create flow chart to solve the puzzle.
-
 import numpy as np
 import sys
 import os
 
-with open(os.getcwd() + "\\01_Puzzle_Input.txt", "r") as f:
+with open(os.getcwd() + "\\Puzzle Input.txt", "r") as f:
     calibration_numbers = []
     for line in f:
         for char in line[:-1]:
